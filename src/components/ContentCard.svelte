@@ -1,8 +1,8 @@
 <script>
-    export let profileClass = "";
+    export let className;
 </script>
 
-<div class="content-card p-5 bg-white m-5 shadow-md rounded {profileClass}">
+<div class="content-card p-5 bg-white m-5 shadow-md rounded {className}">
     <slot></slot>
 </div>
 

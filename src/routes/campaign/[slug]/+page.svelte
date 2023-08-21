@@ -5,4 +5,4 @@
 
 <HeaderBar />
 
-<ProfileSection />
+<ProfileSection message={"Hello World!"} progressTitle={"Hello World!"} />

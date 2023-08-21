@@ -1,9 +1,7 @@
 <script>
-    export let visible = true;
+    export let message = "Hier komt mijn motivatie";
 </script>
 
-{#if visible}
 <div class="message text-center">
-    <p>Ik collecteer omdat:<br /><span class="font-semibold">Bla bla bla</span></p>
+    <p>Ik collecteer omdat:<br /><span class="font-semibold">{message}</span></p>
 </div>
-{/if}
