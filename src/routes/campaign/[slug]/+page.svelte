@@ -8,6 +8,7 @@
 <ProfileSection
     message={"Hello World!"}
     progressTitle={"Hello World!"}
-    currentAmount={"50"}
-    targetAmount={"100"}
+    currentAmount={50.00}
+    targetAmount={100.00}
+    donations={10}
 />

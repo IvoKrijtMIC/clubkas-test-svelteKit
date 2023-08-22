@@ -6,8 +6,9 @@
     import Stats from "./Stats.svelte";
     export let message: string = "";
     export let progressTitle: string = "";
-    export let currentAmount: string = "";
-    export let targetAmount: string = "";
+    export let currentAmount: number = 0.00;
+    export let targetAmount: number = 0.00;
+    export let donations: number = 0;
     let className: string = "profile";
 </script>
 
@@ -15,5 +16,5 @@
     <Avatar {className} />
     <Message {message} />
     <ProgressBar {progressTitle} progressValue={currentAmount} progressMax={targetAmount} />
-    <Stats />
+    <Stats statsAmount={currentAmount} statsDonations={donations} />
 </ContentCard>
