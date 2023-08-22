@@ -8,6 +8,6 @@
 <ProfileSection
     message={"Hello World!"}
     progressTitle={"Hello World!"}
-    progressValue={"50"}
-    progressMax={"100"}
+    currentAmount={"50"}
+    targetAmount={"100"}
 />
