@@ -1,5 +1,5 @@
-<script>
-    export let className;
+<script lang="ts">
+    export let className: string;
 </script>
 
 <div class="avatar w-[150px] mx-auto mb-8 shadow-md rounded-full bg-white p-0.5 relative {className}">

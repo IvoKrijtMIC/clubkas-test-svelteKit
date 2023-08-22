@@ -1,5 +1,5 @@
-<script>
-    export let message = "Hier komt mijn motivatie";
+<script lang="ts">
+    export let message: string = "Hier komt mijn motivatie";
 </script>
 
 <div class="message text-center">
