@@ -1,10 +1,12 @@
 <script lang="ts">
     export let progressTitle: string = "Mijn opbrengst";
+    export let progressValue: string = "0";
+    export let progressMax: string = "0";
 </script>
 
 <div class="progress-bar mt-5 mb-5">
     <h2 class="text-2xl text-center mb-2 font-semibold">{progressTitle}</h2>
-    <progress class="rounded-full bg-mic-light w-full " value="5" max="10"></progress>
+    <progress class="rounded-full bg-mic-light w-full " value="{progressValue}" max="{progressMax}"></progress>
 </div>
 
 <style>
